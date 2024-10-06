@@ -7,7 +7,7 @@ body{
 .header{
   display: flex;
   justify-content: start;
-
+  background-color: #1F2937;
 }
 
 .link, li{
@@ -16,10 +16,65 @@ body{
   align-items: center;
   margin: auto;
   gap: 16px;
+  color: #F9FAF8;
 }
 
 .header1{
   display: flex;
   font-size: 24px;
+  color: #F9FAF8;
   margin: auto;
+}
+
+.container1{
+  background-color: #1F2937;
+  color: #F9FAF8;
+  padding: 50px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  display: flex;
+}
+
+.container2{
+  width: 350px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.signup{
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  color: #E5E7EB;
+  background-color: blue;
+  display: flex;
+  align-self: flex-start;
+  justify-content: center;
+  padding: 5px;
+  width: 7rem;
+
+}
+
+.subtext{
+  margin-top: 0%;
+  font-size: 18px;
+  color: #E5E7EB;
+
+}
+
+img{
+  margin: auto;
+  width: 300px;
+}
+
+.header2{
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.img1{
+  height: 100px;
+  width: 10px;
+  display: flex;
 }
