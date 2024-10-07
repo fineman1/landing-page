@@ -91,6 +91,7 @@ img{
     display: flex;
     padding: 32px;
     padding-top: 0%;
+    padding-bottom: 65px;
     justify-content: center;
 }
 
@@ -98,6 +99,11 @@ img{
   gap: 42px;
   display: flex;
   justify-content: center;
+}
+
+img{
+  border-radius: 7px;
+  border: 5px solid #3882f6;
 }
 
 .text, p{
@@ -114,7 +120,7 @@ img{
 
 .quote{
   background-color: #cad1da;
-  padding: 80px;
+  padding: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -154,7 +160,7 @@ img{
 }
 
 .body{
-  padding: 80px;
+  padding: 200px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -187,4 +193,12 @@ img{
   padding-right: 20px;
   padding-top: 4px;
   padding-bottom: 4px;
+}
+
+.footer{
+  padding: 45px;
+  color: #E5E7EB;
+  display: flex;
+  justify-content: center;
+  background-color: #1F2937;
 }
